@@ -1,7 +1,7 @@
 
 
 >  This website is a fully responsive react web totolist app and it is also using the [React Router](https://reacttraining.com/react-router/) to its navigation. This webapp is also using [ JSONPlaceholder]([https://jsonplaceholder.typicode.com/todos],) as instructed but I also build my own custom routes and controllers with nodes and express.
-# for get
+# get
 - http://localhost:5000/todos
 # post
 - http://localhost:5000/todos
@@ -22,7 +22,7 @@
   
   
   > References:
-  * [SERVER](hhttps://nodejs.org/en/) 
+  * [SERVER](hhttps://nodejs.org/en) 
   * [useEffect hooks](https://reactjs.org/docs/hooks-effect.html)
   * [Async and Await](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/async_function)
   * [Javascript Promises](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise)
