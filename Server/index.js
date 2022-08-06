@@ -1,21 +1,30 @@
 import express from 'express';
-
+// import fetch from 'node-fetch';
 //body parser
 import bodyParser from 'body-parser';
 
-//initialize express
-const app = express()
-//port
-const PORT = 5000
+import todosRoutes from "./routes/todos.js";
 
-//initialize body parser
+// initialize express
+const app = express();
+
+const port = process.env.PORT || 5000;
+
 app.use(bodyParser.json());
 
 
+// stating path to the routes
+app.use('/todos', todosRoutes);
 
-//home route
-app.get('/', (req, res) => { res.send('Hello From home Page') })
-    
 
-// listen on port 5000
-app.listen(PORT, () => console.log(`Server is running on port: http://localhost:${PORT}`))
+
+app.get("/", (req, res) => {
+    // res.json(todos);
+    //console.log(todos);
+    res.send('hi there');
+});
+
+
+
+app.listen(port, () => console.log(`Listening on port ${port}`));
+
