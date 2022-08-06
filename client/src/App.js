@@ -24,11 +24,9 @@ class App extends Component {
    //for http requests
    componentDidMount(){
      //get it through the axios library
-     //This is the route from jsonplaceholder
-     //You replace with my own route from my own server
-     //http://localhost:5000/todos=?_limit=5
+     // can replace with https://jsonplaceholder.typicode.com/todos
      axios
-       .get("http://localhost:5000/todos?_start=0&_limit=5")
+       .get("http://localhost:5000/todos")
        .then((res) => this.setState({ todos: res.data }));
    }
 
@@ -70,7 +68,8 @@ class App extends Component {
     //   })
 
     //me axios library
-    axios.delete(`https://jsonplaceholder.typicode.com/todos/${id}`)
+    //can replace with https://jsonplaceholder.typicode.com/todos/${id}
+    axios.delete(`http://localhost:5000/todos/${id}`)
       .then(res=>this.setState(
           {todos:this.state.todos.filter(todo=>todo.id!==id)
           }))
@@ -131,7 +130,9 @@ class App extends Component {
     
 
     // me http me axios
-     axios.post('https://jsonplaceholder.typicode.com/todos',
+    //can replace with:
+    //https://jsonplaceholder.typicode.com/todos
+     axios.post('http://localhost:5000/todos',
      {
       title:title,
       completed:false
