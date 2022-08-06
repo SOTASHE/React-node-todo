@@ -57,14 +57,14 @@ $ npm start
 ```
 incase you having problems with local routings from my server you can use the one from json place holder:
 
-#delete 
+# delete 
 
 https://jsonplaceholder.typicode.com/todos/${id}
 
-#get 
+# get 
 https://jsonplaceholder.typicode.com/todos
 
-#post
+# post
 https://jsonplaceholder.typicode.com/todos
 
 
