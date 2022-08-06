@@ -1,10 +1,6 @@
 
-## react-tender-app
-web app that displays the 10 latest available tenders. The application should also allow the businessman to search for available tenders through their title and description.
 
-
-
->  This website is a fully responsive react web app and it is also using the [React Router](https://reacttraining.com/react-router/) to its navigation. This webapp is also using [ JSONPlaceholder]([https://jsonplaceholder.typicode.com/todos],) as instructed but I also build my own custom routes and controllers with nodes and express.
+>  This website is a fully responsive react web totolist app and it is also using the [React Router](https://reacttraining.com/react-router/) to its navigation. This webapp is also using [ JSONPlaceholder]([https://jsonplaceholder.typicode.com/todos],) as instructed but I also build my own custom routes and controllers with nodes and express.
 # for get
 - http://localhost:5000/todos
 # post
