@@ -10,7 +10,11 @@ import fetch from "node-fetch";
 
 // fet data from https://jsonplaceholder.typicode.com/todos and save it to a variable
 // connect to https://jsonplaceholder.typicode.com/todos and get the data
-const url = "https://jsonplaceholder.typicode.com/todos";
+const url = "https://jsonplaceholder.typicode.com/todos?_start=0&_limit=5";
+//http://localhost:5000/todos?_start=0&_limit=5
+//get only 5 todos from the data
+
+
 // fetch the data
 fetch(url)
   .then((response) => response.json())
@@ -21,6 +25,9 @@ fetch(url)
     console.log(todos);
   })
   .catch((error) => console.log(error));
+
+// let todos = await fetch(url).then((response) => response.json());
+//get only 5 todos from the data
 
 let todos = await fetch(url).then((response) => response.json());
 

@@ -21,16 +21,16 @@ class App extends Component {
 
       ]
    }
-
-
    //for http requests
    componentDidMount(){
      //get it through the axios library
-     axios.get('https://jsonplaceholder.typicode.com/todos?_limit=5')
-        .then(res=>this.setState({todos:res.data}))
+     //This is the route from jsonplaceholder
+     //You replace with my own route from my own server
+     //http://localhost:5000/todos=?_limit=5
+     axios
+       .get("http://localhost:5000/todos?_start=0&_limit=5")
+       .then((res) => this.setState({ todos: res.data }));
    }
-
-
 
    //so this essentially is meant to change the completed status, 
    // however I m gonna use this in the TodoItem.js
