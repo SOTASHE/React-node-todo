@@ -1,5 +1,2 @@
 # dependencies
-node_modules/
-/notes
-/.pnp
-.pnp.js
+**/node_modules
