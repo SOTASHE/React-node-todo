@@ -54,6 +54,7 @@ $ cd client
 $ npm start
 ```
 incase you having problems with local routings from my server you can use the one from json place holder:
+
 #delete 
 
 https://jsonplaceholder.typicode.com/todos/${id}
