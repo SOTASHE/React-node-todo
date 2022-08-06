@@ -1,0 +1,37 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "a simple crud api for todos",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SOTASHE/NodeExpressReactTodo-app.git"
+  },
+  "keywords": [
+    "Crud",
+    "Todo",
+    "json",
+    "placeholder",
+    "node",
+    "js",
+    "express",
+    "react"
+  ],
+  "author": "Snaye Sotashe",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SOTASHE/NodeExpressReactTodo-app/issues"
+  },
+  "homepage": "https://github.com/SOTASHE/NodeExpressReactTodo-app#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
