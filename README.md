@@ -21,8 +21,8 @@
   
   
   
-  > References:
-  * [SERVER](hhttps://nodejs.org/en) 
+  > Some References:
+ 
   * [useEffect hooks](https://reactjs.org/docs/hooks-effect.html)
   * [Async and Await](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/async_function)
   * [Javascript Promises](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise)
@@ -55,6 +55,7 @@ $ npm start
 ```
 incase you having problems with local routings from my server you can use the one from json place holder:
 #delete 
+
 https://jsonplaceholder.typicode.com/todos/${id}
 
 #get 
