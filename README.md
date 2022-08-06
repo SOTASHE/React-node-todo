@@ -2,7 +2,7 @@
 Live demo: deployed on netlify: 
 https://qwili-todo.netlify.app/
 
->  This website is a fully responsive react web totolist app and it is also using the [React Router](https://reacttraining.com/react-router/) to its navigation. This webapp is also using [ JSONPlaceholder]([https://jsonplaceholder.typicode.com/todos],) as instructed but I also build my own custom routes and controllers with nodes and express.
+>  This website is a fully responsive react web todo list app and it is also using the [React Router](https://reacttraining.com/react-router/) to its navigation. This webapp is also using [ JSONPlaceholder]([https://jsonplaceholder.typicode.com/todos],) as instructed but I also build my own custom routes and controllers with nodes and express.
 # get
 - http://localhost:5000/todos
 # post
