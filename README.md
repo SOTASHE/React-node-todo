@@ -17,8 +17,6 @@ https://qwili-todo.netlify.app/
   * Build custom routes and controllers with node and express
   * build a fully responsive website.
   * use [React Router](https://reacttraining.com/react-router/).
-  * query data from a third party library using ` useEffect hook` with the `async` and `await` promise.
-  * use  states around the application without any redux, just hooks.
   * Connect server and client
   
   
